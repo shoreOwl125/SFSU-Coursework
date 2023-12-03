@@ -1,8 +1,10 @@
 # Estimating the volume of a hypersphere inside a hypercube
-
-n_total = 10000000  # Total number of samples
-batch_size = 100000  # Size of each batch
-num_batches = n_total / batch_size  # Number of batches
+# Total number of samples
+n_total = 10000000  
+# Size of each batch
+batch_size = 100000  
+# Number of batches
+num_batches = n_total / batch_size  
 
 # Function to generate random coordinates and calculate proportion inside hypersphere
 batch_run <- function(batch_size) {
@@ -27,4 +29,23 @@ estimated_hypersphere_volume = proportion_inside * hypercube_volume
 cat("The estimated proportion of the hypersphere that is interior to the hypercube is", proportion_inside, "\n")
 cat("The estimated volume of the interior of the hypersphere is", estimated_hypersphere_volume)
 
-R
+#Repeat the simulation to estimate the volume of the exterior region of a hyperellipsoid that is also interior to a hypercube.
+# Function to generate random coordinates and calculate proportion inside hypersphere
+batch_run2 <- function(batch_size) {
+  x = runif(batch_size, -1, 1)
+  y = runif(batch_size, -1, 1)
+  z = runif(batch_size, -1, 1)
+  w = runif(batch_size, -1, 1)
+  outside_hyperellipsoid = (1.5*x^2 + 1.5*y^2 + 1.1*z^2 + 1.4*w^2) > 1
+  mean(outside_hyperellipsoid)
+}
+
+# Run the Monte Carlo simulation in batches and calculate average proportion
+proportion_outside = mean(sapply(1:num_batches, function(i) batch_run2(batch_size)))
+
+# Estimating the hypervolume of the region outside the hyperellipsoid
+estimated_hypervolume_outside = proportion_outside * hypercube_volume
+
+# Print the results
+cat("The estimated proportion of the hypercube that is exterior to the hyperellipsoid is", proportion_outside, "\n")
+cat("The estimated hypervolume of the exterior of the hyperellipsoid is", estimated_hypervolume_outside)
