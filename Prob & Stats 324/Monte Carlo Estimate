@@ -1,0 +1,29 @@
+# Estimating the volume of a hypersphere inside a hypercube
+
+n_total = 10000000  # Total number of samples
+batch_size = 100000  # Size of each batch
+num_batches = n_total / batch_size  # Number of batches
+
+# Function to generate random coordinates and calculate proportion inside hypersphere
+batch_run <- function(batch_size) {
+  x = runif(batch_size, -1, 1)
+  y = runif(batch_size, -1, 1)
+  z = runif(batch_size, -1, 1)
+  w = runif(batch_size, -1, 1)
+  inside_hypersphere = (x^2 + y^2 + z^2 + w^2) <= 1
+  mean(inside_hypersphere)
+}
+
+# Run the Monte Carlo simulation in batches and calculate average proportion
+proportion_inside = mean(sapply(1:num_batches, function(i) batch_run(batch_size)))
+
+# Volume of the 4D hypercube
+hypercube_volume = 16
+
+# Estimating the volume of the hypersphere
+estimated_hypersphere_volume = proportion_inside * hypercube_volume
+
+# Print the results
+cat("The estimated proportion of the hypersphere that is interior to the hypercube is", proportion_inside, "\n")
+cat("The estimated volume of the interior of the hypersphere is", estimated_hypersphere_volume)
+
