@@ -1,0 +1,42 @@
+Therapist
+---------
+Talk to the program by typing in plain English, using normal upper-
+and lower-case letters and punctuation.  Enter "quit" when done.
+========================================================================
+Hello.  How are you feeling today?
+> homework
+Why do you say that homework?
+> I have too much homework.
+Why do you tell me that you've too much homework?
+> Finals week is hard.
+I see but don't forget to eat properly. Good nutrition can improve brain function.
+> Too much homework.
+Let's change focus a bit... Tell me about your family.
+> On im sorry.
+I see.  And what does that tell you?
+> What about friend.
+What do you think?
+> I have a friend.
+Have you really a friend?
+> I have homework.
+Why do you tell me that you've homework?
+> I'm sleepy.
+How does being sleepy make you feel?
+> So sleepy what to do?
+I see. If you're too sleepy while you study you may experience a diminishing return on your study time.
+> I would like to do my homework.
+Who else knows that you would like to do your homework?
+> Getting hungry need to make something.
+Hmmm I've noticed that snacks do not replace a well rounded meal
+> Any suggestions about doing homework?
+Please consider whether you can answer your own question.
+> This is my homework talking to me!
+I feel for you.. Homework can be tedious but it's the best way to learn
+> Yes! Got it
+You seem quite sure.
+> Not bad you carry a decent conversation.
+Why do you say that not bad me carry a decent conversation?
+> Okay farewell.
+I see.  And what does that tell you?
+> quit
+Thank you, that will be $150.  Have a good day!

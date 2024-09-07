@@ -1,0 +1,101 @@
+######### PART 1 CHATLOG ##########
+
+Therapist
+---------
+Talk to the program by typing in plain English, using normal upper-
+and lower-case letters and punctuation.  Enter "quit" when done.
+========================================================================
+Hello.  How are you feeling today?
+> Finals week was very difficult.
+PorterStemmer Version: final week wa veri difficult
+I know what you mean. All you can do is your best!
+> I have lots of homework.
+PorterStemmer Version: I have lot of homework
+Have you really lot of homework?
+> Any homework advice?
+PorterStemmer Version: ani homework advic ?
+Oh bummer! Remember to start on it early so you have time to complete it.
+> You're smart thats good advice.
+PorterStemmer Version: you 're smart that good advic
+We should be discussing you, not me.
+> What do you want to know?
+PorterStemmer Version: what do you want to know ?
+Why do you ask?
+> Some words are stemmed while others are not.
+PorterStemmer Version: some word are stem while other are not
+How does that make you feel?
+> It makes me intrigued by the complexity of language processing!
+PorterStemmer Version: It make me intrigu by the complex of languag process
+How does that make you feel?
+> Would you like to be further improved?
+PorterStemmer Version: would you like to be further improv ?
+Please consider whether you can answer your own question.
+> Okay next I will create a method that allows you to count the tokens in my input.
+PorterStemmer Version: okay next I will creat a method that allow you to count the token in my input
+I see.  And what does that tell you?
+> It will tell me how many tokens were parsed from the input.
+PorterStemmer Version: It will tell me how mani token were pars from the input
+How do you feel when you say that?
+
+######### PART 2 CHATLOG ##########
+Therapist
+---------
+Talk to the program by typing in plain English, using normal upper-
+and lower-case letters and punctuation.  Enter "quit" when done.
+========================================================================
+Hello.  How are you feeling today?
+> Well so far so good. Well how are you?
+Total types: 7
+Total tokens: 9
+Word stems: {'are', 'well', 'so', 'far', 'how', 'you?', 'good.'}
+None
+> Let's see if seeing sees and seen are stemmed differently?
+Total types: 8
+Total tokens: 10
+Word stems: {'are', 'seen', 'stem', 'see', 'differently?', "let'", 'and', 'if'}
+None
+> Okay this does seem to be working better now that more work has been worked out.
+Total types: 14
+Total tokens: 16
+Word stems: {'doe', 'ha', 'seem', 'now', 'more', 'to', 'out', 'that', 'okay', 'better', 'been', 'work', 'thi', 'be'}
+None
+> How about has have had having and haven't ...
+Total types: 7
+Total tokens: 8
+Word stems: {'ha', 'about', 'have', 'and', 'how', "haven't", 'had'}
+None
+> Test testing test tested
+Total types: 1
+Total tokens: 4
+Word stems: {'test'}
+None
+> The cat chased the dog chasing the cat.
+Total types: 4
+Total tokens: 8
+Word stems: {'the', 'cat', 'chase', 'dog'}
+None
+> Using multiple sentences in input. This causes more challenges. It's the punctuation!
+Total types: 12
+Total tokens: 12
+Word stems: {'caus', 'more', 'in', 'use', 'punctuat', 'the', 'multipl', 'challenges.', 'input.', "it'", 'thi', 'sentenc'}
+None
+> I wonder why. I wonder. I wonder why I wonder why?
+Total types: 6
+Total tokens: 11
+Word stems: {'wonder.', 'why?', 'I', 'whi', 'wonder', 'why.'}
+None
+> A simple tokenizer can tokenize fairly well when there is little punctuation.
+Total types: 11
+Total tokens: 12
+Word stems: {'well', 'when', 'A', 'there', 'punctuat', 'token', 'can', 'is', 'fairli', 'littl', 'simpl'}
+None
+> An upper case is stemmed the same as an example of the stem of a lower case.
+Total types: 13
+Total tokens: 17
+Word stems: {'case', 'as', 'stem', 'lower', 'the', 'An', 'exampl', 'a', 'is', 'upper', 'of', 'same', 'an'}
+None
+> It seems that punctuation and case affect our stemming so it seems.
+Total types: 11
+Total tokens: 12
+Word stems: {'case', 'seem', 'It', 'that', 'stem', 'punctuat', 'so', 'affect', 'our', 'it', 'and'}
+None

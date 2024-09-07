@@ -1,0 +1,42 @@
+sample 2 points
+[[[45.84441705  0.67408436]
+  [57.52089359  1.6201584 ]
+  [43.25295103  0.65096307]]
+
+ [[48.58762269 -0.91081132]
+  [73.21176089 -5.61865679]
+  [49.9436264   8.50004584]]
+
+ [[63.34323448  1.85562197]
+  [50.64743309  1.97425917]
+  [52.29184812  0.95722635]]
+
+ ...
+
+ [[61.64295686 30.28074454]
+  [79.97448235 22.32410228]
+  [99.2399055  30.4344592 ]]
+
+ [[66.03294434 42.88437314]
+  [23.8913372  11.79591104]
+  [16.28445795 10.35487248]]
+
+ [[25.90559397 12.35783714]
+  [43.92574927  4.30049062]
+  [27.49302856  2.89456621]]]
+
+
+PCA
+Total number of principal components: 4
+Explained variance by each component: [0.32677825 0.27318454 0.23887114 0.10820887]
+
+Regression model performance
+Best RMSE for Ridge: 3.620013729170214
+Best parameters for Ridge: {'alpha': 1}
+Best RMSE for Lasso: 3.618456246435746
+Best parameters for Lasso: {'alpha': 0.001}
+Best RMSE for Random Forest: 2.823503836201304
+Best parameters for Random Forest: {'n_estimators': 30}
+Best RMSE for KNN: 2.82046855800945
+Best parameters for KNN: {'n_neighbors': 7}
+

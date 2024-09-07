@@ -1,0 +1,35 @@
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. Alice
+'Alice' is a complete and correct word as per corpus 'Alice in Wonderland', and its probability is '0.011609498680738786'.
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. rabbit
+'rabbit' is a complete and correct word as per corpus 'Alice in Wonderland', and its probability is '0.0001465845793022574'.
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. cat
+'cat' is a complete and correct word as per corpus 'Alice in Wonderland', and its probability is '0.0003224860744649663'.
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. time
+'time' is a complete and correct word as per corpus 'Alice in Wonderland', and its probability is '0.001993550278510701'.
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. mad
+'mad' is a complete and correct word as per corpus 'Alice in Wonderland', and its probability is '0.00041043682204632074'.
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. homework
+Type: somewhere, Probability: 5.8633831720902964e-05
+Type: someone, Probability: 2.9316915860451482e-05
+Type: home, Probability: 0.0001465845793022574
+Type: memory, Probability: 2.9316915860451482e-05
+Type: work, Probability: 0.00023453532688361186
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. pizza
+Type: pine, Probability: 2.9316915860451482e-05
+Type: sizes, Probability: 2.9316915860451482e-05
+Type: puzzle, Probability: 2.9316915860451482e-05
+Type: pigs, Probability: 0.00017590149516270889
+Type: size, Probability: 0.00038111990618586926
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. Italy
+Type: scaly, Probability: 2.9316915860451482e-05
+Type: tale, Probability: 8.795074758135444e-05
+Type: stalk, Probability: 2.9316915860451482e-05
+Type: talk, Probability: 0.00041043682204632074
+Type: stay, Probability: 0.0001465845793022574
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. imagination
+Type: invitation, Probability: 5.8633831720902964e-05
+Type: explanation, Probability: 5.8633831720902964e-05
+Type: Ambition, Probability: 2.9316915860451482e-05
+Type: imagine, Probability: 2.9316915860451482e-05
+Type: variations, Probability: 2.9316915860451482e-05
+Begin by entering a word to search for it in 'Alice in Wonderland' or 'exit' to exit the program. exit
